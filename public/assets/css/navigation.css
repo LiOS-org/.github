@@ -1,0 +1,26 @@
+.header_embedded_navigation {
+    background: var(--frosted_white);
+    border-radius: 5px;
+    display: flex;
+}
+.header_embedded_navigation a:link{
+    color: var(--white);
+}
+.navigation_button{
+    display: flex;
+    color: var(--primary);
+    border-radius: 5px;
+    text-decoration: none;
+    background: none;
+    font-size: 28px;
+    border-radius: inherit;
+    margin-left: 5px;
+    margin-right: 5px;
+    transition: all 1s  linear;
+}
+.navigation_button:hover{
+    background: var(--frosted_primary);
+    color: var(--secondary);
+    background: var(--frosted_white);
+    transition: all 1s linear;
+}

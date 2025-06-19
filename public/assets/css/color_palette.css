@@ -1,0 +1,13 @@
+:root{
+    --primary:#9457eb;
+    --secondary:#ff66cc;
+    --white:#e7f1e6;
+    --black:#010101;
+    /* Frosted Colors */
+    --frosted_primary:var(--9457eb);
+    --frosted_secondary:var(--ff66cc);
+    --frosted_white:var(--e7f1e6);
+    --frosted_black:var(--010101);
+    /* mouse cursor gradient tracking */
+    --mouse_cursor_gradient_tracking:var(--primary);
+}

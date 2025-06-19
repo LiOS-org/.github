@@ -26,11 +26,8 @@
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.featured_projects h3,p{
+.featured_projects h3{
     text-align: center;
-    max-width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
     color: var(--white);
     text-decoration: none;
 }
@@ -53,6 +50,13 @@
     margin-bottom: 10px;
     transition: all 0.5s ease-in-out ;
 }
+.featured_card_left p{
+    justify-content: left;
+    width: 80%;
+    max-width: unset;
+    margin-left: unset;
+    margin-right: 20%;
+}
 .featured_card_right{
     display: flex;
     background: var(--frosted_white);
@@ -67,6 +71,13 @@
     margin-top: 10px;
     margin-bottom: 10px;
     transition: all 0.5s ease-in-out ;
+}
+.featured_card_right p{
+    justify-content: right;
+    width: 80%;
+    max-width: unset;
+    margin-left: 20%;
+    margin-right: unset;
 }
 /* On hover */
 .featured_card_left:hover, .featured_card_right:hover {

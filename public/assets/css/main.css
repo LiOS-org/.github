@@ -8,6 +8,7 @@
 .card-container-1 {
   color: var(--white);
   text-align: center;
+  justify-content: center;
 }
 .card-container-1 .lios-button-group {
   margin-bottom: 5px;

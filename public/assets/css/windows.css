@@ -1,0 +1,28 @@
+.lios-window-container {
+  color: var(--white);
+  background: var(--frosted_white);
+}
+.lios-window-card-title {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+.lios-window-card {
+  background: var(--frosted_white);
+}
+.lios-window-close {
+  background: var(--red);
+}
+.lios-window .favicon {
+  display: block;
+  width: 20%;
+  margin-left: 40%;
+  margin-right: 40%;
+  border-radius: 100vh;
+}
+.lios-window-value-row {
+  text-decoration: none;
+  color: var(--primary);
+  font-size: initial;
+  font-weight: initial;
+  border: 2px groove var(--primary);
+}

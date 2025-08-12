@@ -2,7 +2,6 @@
   --lios-card-background: var(--frosted_white);
   --lios-button-border-width: 2px;
   --lios-button-border-color: var(--primary);
-  --lios-button-border-radius: 100vh;
   --lios-button-on-hover-background: var(--secondary);
 }
 .card-container-1 {

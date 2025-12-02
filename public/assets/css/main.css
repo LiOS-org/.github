@@ -10,9 +10,19 @@
   text-align: center;
   justify-content: center;
 }
-.card-container-1 .lios-button-group {
+.card-container-1 .lios-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card-container-1 .lios-card hr{
+  width: 100%;
+}
+.card-container-1 .lios-card .lios-button-group {
   margin-bottom: 5px;
   margin-top: auto;
+  display: flex;
+  justify-content: center;
 }
 .for-card-1 {
   text-align: center;

@@ -1,56 +1,5 @@
-.header_embedded_navigation {
-    background: var(--frosted_primary);
-    border-radius: 5px;
-    display: flex;
-    flex-direction: row;
-}
-.header_embedded_navigation a:link{
-    color: var(--white);
-}
-.navigation_container{
-    display: flex;
-    align-items: center;
-    width: fit-content;
-    margin-left: auto;   /* This pushes the container to the right */
-    margin-right: 0;     /* Ensures no extra space on the right */
-    border-radius: inherit;
-}
-.navigation_button svg{
-    width: 50px;
-    height: 50px;
-    transition: all 0.5s linear;
-}
-.navigation_button{
-    display: flex;
-    color: var(--secondary);
-    text-align: center;
-    border-radius: 5px;
-    text-decoration: none;
-    background: none;
-    font-size: 18px;
-    border-radius: inherit;
-    margin-left: 5px;
-    margin-right: 5px;
-    transition: all 0.5s linear;
-    height: inherit;
-    flex-direction: column;
-}
-.navigation_button:hover{
-    color: var(--frosted_primary);
-    background: var(--frosted_white);
-    transition: all 0.5s linear;
-    border-radius: 5px;
-}
-/* Navigation title image */
-.navigation_title video {
-    width: 50px;
-    height: 50px;
+.lios-header-nav-2-branding a, .lios-header-nav-2-branding img{
+    height: 44px;
+    width: 44px;
     border-radius: 100vh;
-    z-index: 5;
-}
-.navigation_title{
-    background: none;
-    align-items: center;
-    display: flex;
-    margin: 5px ;
 }

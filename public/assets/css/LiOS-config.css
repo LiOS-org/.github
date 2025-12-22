@@ -12,8 +12,11 @@
   --lios-button-border-color: var(--primary);
 }
 nav{
-  --lios-header-nav-2-background: var(--frosted_white);
+  /* --lios-header-nav-2-background: var(--frosted_white); */
   --lios-header-nav-2-component-size: 42px;
   --lios-header-nav-2-color: var(--primary);
   --lios-header-nav-2-hover-color: var(--secondary);
+}
+.lios-frosted-glass{
+  border: 2px groove #0000000d;
 }

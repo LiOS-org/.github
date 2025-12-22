@@ -15,7 +15,7 @@ const constructShowcaseProjects = async () => {
         const projectFaviconUrl = projectBaseUrl + projectFavicon;
 
         const projectCard = document.createElement("div");
-        projectCard.classList.add("lios-card");
+        projectCard.classList.add("lios-card","lios-frosted-glass");
         
         projectCard.innerHTML = //html
             `

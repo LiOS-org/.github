@@ -1,6 +1,8 @@
 .lios-window-container {
-  color: var(--white);
+  color: var(--black);
   background: var(--frosted_white);
+  border: 2px outset var(--frosted_white);
+  box-sizing: border-box;
 }
 .lios-window-card-title {
   font-weight: bold;

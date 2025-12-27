@@ -2,7 +2,11 @@
     height: 44px;
     width: 44px;
     border-radius: 100vh;
+    box-sizing: border-box;
 }
 .lios-header-nav-2{
     z-index: 5;
+}
+.lios-header-nav-2-branding,.lios-header-nav-2-pebbles{
+    border: 2px outset #0000000d;
 }

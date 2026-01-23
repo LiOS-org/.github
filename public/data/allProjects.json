@@ -1,0 +1,11 @@
+{
+    "educational":[
+        "https://periodictable.liosorg.com/metadata.JSON"
+    ],
+    "ui":[
+        "https://colors.liosorg.com/metadata.json"
+    ],
+    "media":[
+        "https://techinformal.liosorg.com/metadata.json"
+    ]
+}

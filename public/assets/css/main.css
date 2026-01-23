@@ -6,11 +6,13 @@
   text-align: center;
   border: 2px outset var(--frosted_white);
   box-sizing: border-box;
+  margin-top: 75px;
 }
 .card-container-1 {
   color: var(--black);
   text-align: center;
   justify-content: center;
+  gap: 10px;
 }
 .card-container-1 .lios-card{
   display: flex;

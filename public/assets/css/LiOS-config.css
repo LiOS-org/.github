@@ -17,3 +17,6 @@ nav{
   --lios-header-nav-2-color: var(--primary);
   --lios-header-nav-2-hover-color: var(--secondary);
 }
+.lios-button{
+  border-style: inset;
+}
